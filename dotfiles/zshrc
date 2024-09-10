@@ -27,7 +27,7 @@ export XMODIFIERS=@im=fcitx
 export SDL_IM_MODULE=fcitx
 
 # prompt
-PS1="%F{cyan}%B%~%b %F{yellow}❯%F{green}❯%F{blue}❯ %f" 
+PS1="%F{cyan}%B%~%b %F{magenta}❯%F{green}❯%F{yellow}❯ %f"
 
 # editor
 EDITOR=vim

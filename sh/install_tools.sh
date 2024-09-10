@@ -23,3 +23,4 @@ install_if_not_exist ffmpeg
 install_if_not_exist openssh
 install_if_not_exist termux-tools
 install_if_not_exist termux-api
+install_if_not_exist tsu

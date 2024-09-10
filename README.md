@@ -1,4 +1,4 @@
-# 用于不使用root的安卓Termux用户
+# 用于使用root的安卓Termux用户
 
 ## 安装
 

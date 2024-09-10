@@ -10,7 +10,7 @@ back_if_exist ~/.tmux.conf
 back_if_exist ~/.vimrc
 back_if_exist ~/.zshrc
 
-cp dotfiles/aliases ~/.aliases
-cp dotfiles/tmux.conf ~/.tmux.conf
-cp dotfiles/vimrc ~/.vimrc
-cp dotfiles/zshrc ~/.zshrc
+cp ./dotfiles/aliases ~/.aliases
+cp ./dotfiles/tmux.conf ~/.tmux.conf
+cp ./dotfiles/vimrc ~/.vimrc
+cp ./dotfiles/zshrc ~/.zshrc
