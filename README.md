@@ -3,7 +3,7 @@
 ## 安装
 
 ```sh
-git clone https://github.com/Galaxy-Suns/dotfiles ~/dotfiles
+git clone https://github.com/Galaxy-Suns/dotfiles/tree/termux_noroot ~/dotfiles
 cd ~/dotfiles
 bash setup.sh
 ```
