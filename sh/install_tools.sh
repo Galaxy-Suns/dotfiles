@@ -2,7 +2,7 @@ function install_if_not_exist(){
     which $1 > /dev/null
     if [ $? != 0 ];
     then
-        apt install $1
+        pkg install $1
     fi
 }
 
@@ -19,3 +19,8 @@ install_if_not_exist r-base
 install_if_not_exist man
 install_if_not_exist wget
 install_if_not_exist curl
+install_if_not_exist zip
+install_if_not_exist ffmpeg
+install_if_not_exist openssh
+install_if_not_exist termux-tools
+install_if_not_exist termux-api

@@ -19,3 +19,10 @@ alias zz='fasd_cd -d -i' # cd with interactive selection
 alias v='f -e vim' # quick opening files with vim
 alias cman='man -M /usr/share/man/zh_CN'
 alias Rsummary="R --slave -e 'x <- scan(file=\"stdin\", quiet=TRUE); summary(x)'"
+alias toast="termux-toast"
+alias topen="termux-open"
+alias dialog="termux-dialog"
+alias topen-url="termux-open-url"
+alias wake-lock="termux-wake-lock"
+alias clipboard-get="termux-clipboard-get"
+alias clipboard-set="termux-clipboard-set"

@@ -19,7 +19,7 @@ nnoremap gn :NERDTree<CR>
 nnoremap gm :NERDTreeClose<CR>
 
 " YouCompleteMe a code-completion engine for Vim
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 
 " vim-signature show marks
 Plugin 'kshenoy/vim-signature'
@@ -186,8 +186,8 @@ set ttimeoutlen=100
 " background
 set background=dark
 let g:onedark_termcolors=256
-colorscheme darkblue
-" colorscheme sorbet
+" colorscheme darkblue
+colorscheme sorbet
 
 " more history
 set undofile

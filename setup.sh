@@ -1,13 +1,16 @@
 # setup dotfiles and other configs for ubuntu server(root)
 
+# setup
+termux-setup-storage
+
 # update
-apt update && apt upgrade
+pkg update && pkg upgrade
 
 # which
 command -v which > /dev/null
 if [ $? != 0 ];
 then
-    apt install which
+    pkg install which
 fi
 
 # tools

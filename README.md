@@ -1,6 +1,4 @@
-# 用于Ubuntu的root用户
-
-个人用于AutoDL
+# 用于不使用root的安卓Termux用户
 
 ## 安装
 
