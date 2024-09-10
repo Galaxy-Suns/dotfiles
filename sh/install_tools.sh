@@ -15,7 +15,6 @@ install_if_not_exist grep
 install_if_not_exist tmux
 install_if_not_exist git
 install_if_not_exist fasd
-install_if_not_exist r-base
 install_if_not_exist man
 install_if_not_exist wget
 install_if_not_exist curl
