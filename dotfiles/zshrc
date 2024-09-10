@@ -1,0 +1,57 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="xiong-chiamiov-plus"
+
+plugins=( 
+    git
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
+
+source $ZSH/oh-my-zsh.sh
+
+# Display Pokemon-colorscripts
+# Project page: https://gitlab.com/phoneybadger/pokemon-colorscripts#on-other-distros-and-macos
+#pokemon-colorscripts --no-title -s -r
+
+# shurufa
+export GTK_IM_MODULE=fcitx
+
+export QT_IM_MODULE=fcitx
+
+export XMODIFIERS=@im=fcitx
+
+export SDL_IM_MODULE=fcitx
+
+# prompt
+PS1="%F{cyan}%B%~%b %F{green}❯%F{green}❯%F{green}❯ %f" 
+
+# editor
+EDITOR=vim
+
+# path
+PATH=$PATH:~/.local/bin:~/code/cmd
+
+# ALIASES
+if [ -f ~/.aliases ]; then
+    source ~/.aliases
+fi
+
+# vim 模式
+bindkey -v
+
+set LANG zh_CN.UTF-8
+set MM_CHARSET zh_CN.UTF-8
+set LC_CTYPE zh_CN.UTF-8
+set LC_ALL zh_CN.UTF-8
+set QT4_IM_MODULE fcitx
+set GTK_IM_MODULE fcitx
+set QT_IM_MODULE fcitx
+set GTK2_IM_MODULE fcitx
+set GTK3_IM_MODULE fcitx
+set XMODIFIERS @im=fcitx
+
+eval "$(fasd --init auto)"
