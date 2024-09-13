@@ -23,3 +23,8 @@ install_if_not_exist ffmpeg
 install_if_not_exist openssh
 install_if_not_exist termux-tools
 install_if_not_exist termux-api
+install_if_not_exist perl
+install_if_not_exist cronie
+install_if_not_exist fd
+
+pip install tencentcloud-sdk-python
