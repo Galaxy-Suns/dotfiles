@@ -19,3 +19,4 @@ install_if_not_exist r-base
 install_if_not_exist man
 install_if_not_exist wget
 install_if_not_exist curl
+install_if_not_exist perl
