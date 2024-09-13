@@ -55,3 +55,6 @@ set GTK3_IM_MODULE fcitx
 set XMODIFIERS @im=fcitx
 
 eval "$(fasd --init auto)"
+
+export VISUAL=vim
+export EDITOR=vim

@@ -11,7 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " cp cv with system
-Plugin 'christoomey/vim-system-copy'
+" Plugin 'christoomey/vim-system-copy'
 
 " NERDTree a file system editor for Vim
 Plugin 'preservim/nerdtree'
@@ -54,7 +54,7 @@ highlight MatchParen ctermfg=0 ctermbg=121
 " nmap ,a :ALEToggle<CR>
 "
 " preview markdown
-Plugin 'instant-markdown/vim-instant-markdown'
+" Plugin 'instant-markdown/vim-instant-markdown'
 "Uncomment to override defaults:
 "let g:instant_markdown_slow = 1
 "let g:instant_markdown_autostart = 0
