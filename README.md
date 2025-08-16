@@ -1,9 +1,10 @@
-# 用于安卓的Termux用户
+# 我的一些配置 
 
 ## 安装
 
 ```sh
-git clone https://github.com/Galaxy-Suns/dotfiles ~/dotfiles
-cd ~/dotfiles
-bash setup.sh
+$ git clone https://github.com/Galaxy-Suns/dotfiles ~/dotfiles ~/.config/dotfiles
+$ cd ~/.config/dotfiles.sh
+$ ./fetch.sh
+$ ./setup.sh PLATFORM
 ```
