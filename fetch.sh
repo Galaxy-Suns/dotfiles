@@ -1,3 +1,5 @@
+#!/bin/env bash
+
 mkdir -p external
 cd external
 
